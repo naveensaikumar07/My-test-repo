@@ -1,0 +1,19 @@
+i<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Database</title>
+</head>
+<body>
+    <h1>Employee Database</h1>
+    
+    <h2>Employees:</h2>
+    <ul>
+        {% for employee in data %}
+            <li>{{ employee.name }} - {{ employee.position }}</li>
+        {% endfor %}
+    </ul>
+    
+    <!-- You can add more HTML elements here for additional content or functionality -->
+</body>
+</html>
+
